@@ -1,7 +1,7 @@
 # EmoNoBa: A Dataset for Analyzing Fine-Grained Emotions on Noisy Bangla Texts
 
 This is the implementation of our paper "EmoNoBa: A Dataset for Analyzing Fine-Grained Emotions on
-Noisy Bangla Texts".
+Noisy Bangla Texts". This work has been accepted at the AACL-IJCNLP 2022
 
 ## Abstract
 For low-resourced Bangla language, works on detecting emotions on textual data suffer from size and cross-domain adaptability. In our paper, we propose a manually annotated dataset of 22,698 Bangla public comments from social media sites covering 12 different domains such as Personal, Politics, and Health, labeled for 6 fine-grained emotion categories of the Junto Emotion Wheel. We invest efforts in the data preparation to 1) preserve the linguistic richness and 2) challenge any classification model. Our experiments to develop a benchmark classification system show that random baselines perform better than neural networks and pre-trained language models as hand-crafted features provide superior performance.
