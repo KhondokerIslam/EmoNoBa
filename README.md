@@ -73,6 +73,7 @@ It is recommended to use virtual environment packages such as **virtualenv**. Fo
   * C4
   * C5
   * C1+C2+C3
+  * C1+C2+C3+C4
   * C1+C2+C3+C4+C5
   * W1+C1+C2+C3+C4+C5
   * W1+W2+W3+C1+C2+C3
