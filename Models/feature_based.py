@@ -183,7 +183,7 @@ if __name__ == '__main__':
     feature_based(df_train, df_test, c = 10, x1 = 2, y1 = 2, gram = "char" )
 
   elif model_name == "C3":
-    feature_based(df_train, df_test, c = 1, x1 = 3, y1 = 3, gram = "char" )
+    feature_based(df_train, df_test, c = 10, x1 = 3, y1 = 3, gram = "char" )
 
   elif model_name == "C4":
     feature_based(df_train, df_test, c = 10, x1 = 4, y1 = 4, gram = "char" )
@@ -193,6 +193,9 @@ if __name__ == '__main__':
 
   elif model_name == "C1+C2+C3":
     feature_based(df_train, df_test, c = 1, x1 = 1, y1 = 3, gram = "char" )
+    
+  elif model_name == "C1+C2+C3+C4":
+    feature_based(df_train, df_test, c = 10, x1 = 1, y1 = 4, gram = "char" )
   
   elif model_name == "C1+C2+C3+C4+C5":
     feature_based(df_train, df_test, c = 10, x1 = 1, y1 = 5, gram = "char" )
