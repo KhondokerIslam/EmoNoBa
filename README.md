@@ -95,3 +95,13 @@ It is recommended to use virtual environment packages such as **virtualenv**. Fo
 
 * Go to Models folder
 * Use "python bangla-bert.py" to run an experiment.
+
+## Bibtex
+```
+@inproceedings{islam2022emonoba,
+  title={EmoNoBa: A Dataset for Analyzing Fine-Grained Emotions on Noisy Bangla Texts},
+  author={Islam, Khondoker Ittehadul and Yuvraz, Tanvir and Islam, Md Saiful and Hassan, Enamul},
+  booktitle={Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing},
+  pages={128--134},
+  year={2022}
+}
