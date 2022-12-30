@@ -35,7 +35,7 @@ Joy | 0, 1. '1' for Joy, '0' for Not Joy
 Surprise | 0, 1. '1' for Surprise, '0' for Not Surprise
 Anger | 0, 1. '1' for Anger, '0' for Not Anger
 Sadness | 0, 1. '1' for Sadness, '0' for Not Sadness
-Fear | 0, 1. '1' for Sadness, '0' for Not Fear
+Fear | 0, 1. '1' for Fear, '0' for Not Fear
 Topic | Topic of the comment
 Domain | Source of the comment from {Youtube, Facebook and Twitter}
 
