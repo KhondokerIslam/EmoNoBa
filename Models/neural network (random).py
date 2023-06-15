@@ -577,7 +577,7 @@ if __name__ == '__main__':
     finalList = []
 
     try:
-      df = pd.read_csv('/content/drive/MyDrive/Research_Shanto/Datasets/Bangla Emotion Dataset/Final/modelData/result_admin_BiLSTM_Attention_random.csv')
+      df = pd.read_csv('/content/drive/MyDrive/Research_Shanto/Datasets/Bangla Emotion Dataset/Final/modelData/result_admin_BiLSTM_Attention_random.csv') # designate a path where you would want to save and update your accuracy log (try manipulating with the `temp` variable by appending to this dataframe)
     except:
       df = pd.DataFrame(finalList, columns = ['Batch_Size', 'Embedding dim', 'Drop-out', 'num_layers', 'LSTM units', 'lr', 'epochs','Macro-Averaged Precision Val', 'Micro-Averaged Precision Val', 'Macro-Averaged Recall Val', 'Micro-Averaged Recall Val', 'Macro-Averaged F1 Val', 'Micro-Averaged F1 Val', 'Accuracy Val', 'Macro-Averaged Precision Test', 'Micro-Averaged Precision Test', 'Macro-Averaged Recall Test', 'Micro-Averaged Recall Test', 'Macro-Averaged F1 Test', 'Micro-Averaged F1 Test', 'Accuracy Test'])
     temp = []
